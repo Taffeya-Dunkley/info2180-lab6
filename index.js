@@ -1,6 +1,6 @@
 window.onload=function(){
      let answer = document.getElementById("result");
-     let text =document.getElementByClass("text").value;
+     let text =document.getElementById("text").value;
     
     var searchX= document.getElementById("button");
     searchX.addEventListener("click", function(){
